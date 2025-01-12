@@ -143,7 +143,7 @@ GROUP BY BillingCountry
 ORDER BY TotalRevenue DESC;
 ```
 
-### **2.Počet predaných skladieb podla žáneru
+### **2.Počet predaných skladieb podla žáneru**
 Query sumarizuje predajnosť skladieb podľa žánrov.
 
 ```sql
@@ -160,7 +160,7 @@ ORDER BY TotalTracksSold DESC;
 
 ```
 
-### **3.Počet zákazníkov na daného Support-reprezentatíva (podľa ID) **
+### **3.Počet zákazníkov na daného Support-reprezentatíva (podľa ID)**
 Query analyzuje počet zákazníkov, ktorých obslúžil každý zamestnanec podpory.
 
 ```sql
@@ -174,7 +174,7 @@ GROUP BY E.EmployeeId, E.FirstName, E.LastName
 ORDER BY TotalCustomersServed DESC;
 ```
 
-### **4.Najpredávanejší Album od top 10 Artistov **
+### **4.Najpredávanejší Album od top 10 Artistov**
 Query vráti 10 najpredávanejších interpretov a ich albumy,
 
 ```sql
@@ -191,7 +191,7 @@ ORDER BY TotalTracksSold DESC
 LIMIT 10;
 ```
 
-### **5.Tržba na Quaterly úrovni **
+### **5.Tržba na Quaterly úrovni**
 query zobrazuje tržby na štrvťrokovej úrovni
 
 ```sql
